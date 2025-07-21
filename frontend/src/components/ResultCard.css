@@ -1,0 +1,33 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.result-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.salary-amount {
+  font-size: 2rem;
+  color: #10b981;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,32 @@
+.chart-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: transparent;
+}
+
+.chart-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.chart-box h3 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.r2-score {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color: white;
+}

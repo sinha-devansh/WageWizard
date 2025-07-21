@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+}
+
+body, input, select, textarea, button, label {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
